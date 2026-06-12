@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+uploads/
+.codegraph/
+
+# opencode CLI
+.opencode/
+opencode.json
+
+# project management / workflow
+.agile/
+scripts/
+moneybox.sh
+e2e_test.py
+
+# backup files
+*.bak

@@ -1,0 +1,10 @@
+[
+  { "name": "现金", "type": "VIRTUAL", "balance": 2000, "currency": "CNY" },
+  { "name": "支付宝", "type": "VIRTUAL", "balance": 5800, "currency": "CNY" },
+  { "name": "微信", "type": "VIRTUAL", "balance": 3200, "currency": "CNY" },
+  { "name": "工资卡(招商)", "type": "BANK", "balance": 28500, "currency": "CNY" },
+  { "name": "信用卡(招行)", "type": "CREDIT_CARD", "balance": 0, "currency": "CNY" },
+  { "name": "信用卡(交行)", "type": "CREDIT_CARD", "balance": 0, "currency": "CNY" },
+  { "name": "储蓄卡(建行)", "type": "BANK", "balance": 12000, "currency": "CNY" },
+  { "name": "公积金账户", "type": "VIRTUAL", "balance": 68500, "currency": "CNY" }
+]

@@ -1,0 +1,52 @@
+[
+  { "name": "餐饮", "parentName": null, "color": "#ef4444", "note": "所有与吃喝相关的消费。" },
+  { "name": "正餐", "parentName": "餐饮", "color": "#f97316", "note": "作为一顿饭吃的有主食的消费。如：中餐、晚餐、拉面、简餐、套餐、元宵聚会、夜宵拼盘等。" },
+  { "name": "早餐", "parentName": "餐饮", "color": "#f97316", "note": "早餐。如：包子、蛋饼、牛奶。" },
+  { "name": "零食小吃", "parentName": "餐饮", "color": "#f97316", "note": "非正餐时间摄入的零食、小吃、甜品等。如：寿司、烤串、麻辣烫、薯片、冰淇淋。" },
+  { "name": "咖啡饮品", "parentName": "餐饮", "color": "#f97316", "note": "所有饮品类消费。如：咖啡、奶茶、瓶装饮料、果汁、水。" },
+  { "name": "生鲜食材", "parentName": "餐饮", "color": "#f97316", "note": "自己买菜、买肉、买水果等准备做饭的原材料。" },
+
+  { "name": "交通", "parentName": null, "color": "#3b82f6", "note": "所有与出行相关的消费。" },
+  { "name": "公交地铁", "parentName": "交通", "color": "#60a5fa", "note": "公交车、地铁、BRT、轮渡等公共交通工具。" },
+  { "name": "打车出行", "parentName": "交通", "color": "#60a5fa", "note": "出租车、网约车（滴滴、高德等）。" },
+  { "name": "私家车", "parentName": "交通", "color": "#60a5fa", "note": "与私家车直接相关的费用。包含：加油、充电、停车、保养、洗车、车险、罚款、ETC过路费等。" },
+  { "name": "共享交通", "parentName": "交通", "color": "#60a5fa", "note": "共享单车、共享电动车、短租。" },
+  { "name": "飞机高铁", "parentName": "交通", "color": "#60a5fa", "note": "跨城/长途旅游或出差的交通。如：机票、高铁票。" },
+
+  { "name": "购物", "parentName": null, "color": "#ec4899", "note": "购买有形商品，不含餐饮生鲜。" },
+  { "name": "日用品", "parentName": "购物", "color": "#f472b6", "note": "纸巾、洗手液、清洁剂、垃圾袋、收纳盒等日常消耗品。" },
+  { "name": "服饰鞋包", "parentName": "购物", "color": "#f472b6", "note": "衣服、裤子、鞋子、帽子、皮带等穿着类。" },
+  { "name": "数码电子", "parentName": "购物", "color": "#f472b6", "note": "手机、电脑、平板、耳机、充电器、内存卡等电子设备及其配件。" },
+  { "name": "家居电器", "parentName": "购物", "color": "#f472b6", "note": "大家电（空调、冰箱）、小家电（泡面碗、水杯、床垫）。" },
+  { "name": "个人护理", "parentName": "购物", "color": "#f472b6", "note": "美妆、护肤、剃须刀、理发、美容美发。" },
+
+  { "name": "居住", "parentName": null, "color": "#8b5cf6", "note": "与住房直接相关的固定支出。" },
+  { "name": "住房贷款", "parentName": "居住", "color": "#a78bfa", "note": "商业贷款、公积金贷款的月供。包含提前还贷。" },
+  { "name": "房租", "parentName": "居住", "color": "#a78bfa", "note": "租房产生的费用。" },
+  { "name": "水电燃气", "parentName": "居住", "color": "#a78bfa", "note": "电费、水费、燃气费。" },
+  { "name": "物业杂费", "parentName": "居住", "color": "#a78bfa", "note": "物业费、停车位管理费、车位费。" },
+
+  { "name": "娱乐", "parentName": null, "color": "#14b8a6", "note": "非购物的、精神文化相关的消费。" },
+  { "name": "会员订阅", "parentName": "娱乐", "color": "#2dd4bf", "note": "视频会员、网盘会员、软件订阅、云服务等。" },
+  { "name": "游戏", "parentName": "娱乐", "color": "#2dd4bf", "note": "游戏内购、版号购买、玩具。" },
+  { "name": "旅游度假", "parentName": "娱乐", "color": "#2dd4bf", "note": "景区门票、住宿、旅行团等。" },
+  { "name": "宠物", "parentName": "娱乐", "color": "#2dd4bf", "note": "购买猫粮、猫砂、宠物医疗、宠物用品等。" },
+  { "name": "社交聚会", "parentName": "娱乐", "color": "#2dd4bf", "note": "朋友聚餐、请客、聚会活动、礼金等。" },
+
+  { "name": "收入", "parentName": null, "color": "#22c55e", "note": "所有资金流入。" },
+  { "name": "职业收入", "parentName": "收入", "color": "#4ade80", "note": "工资、奖金、饭卡充值。" },
+  { "name": "理财收益", "parentName": "收入", "color": "#4ade80", "note": "基金、股票、余额宝、理财产品的分红、利息、买卖收益。" },
+  { "name": "红包返利", "parentName": "收入", "color": "#4ade80", "note": "收到的人情红包、购物返利、现金回馈。" },
+  { "name": "退款报销", "parentName": "收入", "color": "#4ade80", "note": "商品退款、公司或他人报销。" },
+  { "name": "其他收入", "parentName": "收入", "color": "#4ade80", "note": "退税、中奖、遗产等非经常性收入。" },
+
+  { "name": "内部转账", "parentName": null, "color": "#a855f7", "note": "个人不同账户间资金归集或调拨。建议少记，只记核心的大额转账。" },
+
+  { "name": "其他", "parentName": null, "color": "#6b7280", "note": "无法归入以上大类的其他支出。" },
+  { "name": "医疗健康", "parentName": "其他", "color": "#9ca3af", "note": "挂号费、买药、体检、住院、治疗费。" },
+  { "name": "教育培训", "parentName": "其他", "color": "#9ca3af", "note": "课程费、考试报名费、教材、兴趣班。" },
+  { "name": "通讯网络", "parentName": "其他", "color": "#9ca3af", "note": "手机话费、宽带费。" },
+  { "name": "党政工费", "parentName": "其他", "color": "#9ca3af", "note": "党费、工会费。" },
+  { "name": "杂项支出", "parentName": "其他", "color": "#9ca3af", "note": "无法归类的零碎/一次性支出。如：快递费、罚款（非交通）、年会物资。" },
+  { "name": "礼物捐赠", "parentName": "其他", "color": "#9ca3af", "note": "给父母、亲人的红包，慈善捐款。" }
+]
