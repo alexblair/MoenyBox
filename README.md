@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/icons/icon.svg" alt="MoneyBox Logo" width="96" height="96" />
+  <code>💰 📦</code>
 </p>
 
 <h1 align="center">MoneyBox · 记账盒子</h1>
@@ -328,10 +328,8 @@ MIT License
 
 ---
 
-## Screenshots · 截图
-
-> *(Place screenshots here)*
+## Preview · 预览
 
 | Dashboard | Transactions | Reports |
 |-----------|-------------|---------|
-| ![Dashboard]() | ![Transactions]() | ![Reports]() |
+| `📊💰📈` | `📋💳📝` | `📉📊📋` |
